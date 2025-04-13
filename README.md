@@ -47,44 +47,40 @@ This will open a Pygame window with a menu where you can select to play against 
 - **Player Controls**: Use mouse clicks to move your tank around the grid.
 - **Quit Game**: Click the close button in the game window to exit.
 
-## 🎮 Gameplay Mechanics
+## 🔧 Configuration
 
-1. **Grid Movement**:
-   - Both tanks can move, but they cannot move through deactivated robots or off the grid.
+No additional configuration is required. The project should run out of the box after installation.
 
-2. **Health System**:
-   - Each tank starts with a certain health. Colliding with an deactivated robot decreases its health.
-   - Health reaches zero when a tank is destroyed.
+## 🧪 Tests
 
-3. **Collision Detection**:
-   - The game checks for collisions and handles them appropriately, removing tanks from the game when necessary.
+Tests are not available for this project at this time.
 
-4. **Sound Effects**:
-   - Simple sound effects enhance the gaming experience, including clicks, destruction, and start of the game.
+## 📁 Project Structure
 
-## 🚀 Improvements and Considerations
+```
+Tank-Wars/
+├── main_file.py
+├── assets/
+│   ├── images/
+│   │   ├── tank.png
+│   │   ├── robot.png
+│   │   └── power_up.png
+│   └── sounds/
+│       ├── click.wav
+│       ├── destruction.wav
+│       └── start_game.wav
+├── README.md
+└── LICENSE
+```
 
-1. **Enhanced Movement Logic**:
-   - Implement more complex pathfinding algorithms for better AI behavior.
+- `main_file.py`: The main entry point of the game.
+- `assets/`: Contains all assets used in the game, including images and sound effects.
+- `README.md`: This file.
+- `LICENSE`: The MIT License file.
 
-2. **User Interface**:
-   - Add a user interface to display scores, health bars, and other relevant information.
+## 👥 Contributing
 
-3. **Graphics**:
-   - Improve the graphics by adding more detailed images for tanks, deactivated robots, and lasers.
-
-4. **AI Behavior**:
-   - Enhance the AI's behavior by making it smarter in choosing its moves (e.g., avoiding obstacles, moving towards the player).
-
-5. **Sound Effects**:
-   - Add more sound effects to enhance the gaming experience.
-
-6. **Error Handling**:
-   - Implement error handling to ensure smooth gameplay without crashes due to unexpected inputs or conditions.
-
-## 🌐 Contributing
-
-Contributions are welcome! Feel free to fork this repository and submit a pull request with your improvements.
+Contributions are welcome! Feel free to fork this repository and submit a pull request with your improvements. For major changes, please open an issue first to discuss what you would like to change.
 
 ## 📜 License
 
